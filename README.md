@@ -19,7 +19,7 @@ Problem type: Multi-class classification
 | ------------------- | -------- | -------- | --------- | -------- | -------- | -------- |
 | Logistic Regression | 0.4435   | 0.6475   | 0.4844    | 0.3882   | 0.338    | 0.1261   |
 | Decision Tree       | 0.5303   | 0.6573   | 0.5328    | 0.5113   | 0.4972   | 0.285    |
-| KNN                 | 0.476313 | 0.575527 | 0.463783  | 0.450437 | 0.450961 | 0.185843 |
+| KNN                 | 0.4675   | 0.6322   | 0.4665    | 0.4337   | 0.4248   | 0.1701   |
 | Naive Bayes         | 0.3013   | 0.6353   | 0.5563    | 0.3657   | 0.2124   | 0.093    |
 | Random Forest       | 0.5445   | 0.722    | 0.5482    | 0.5231   | 0.5157   | 0.302    |
 | XGBoost             | 0.5133   | 0.7208   | 0.5986    | 0.4637   | 0.4419   | 0.2491   |
@@ -30,7 +30,7 @@ Logistic Regression: Simple baseline, fast but limited by linearity, likely unde
 
 Decision Tree:	Good interpretability, but overfits, sensitive to data splits
 
-KNN:	Sensitive to high dimensionality
+KNN:	Sensitive to high dimensionality, not preferred for large datasets like this one since it is taking huge time to predict
 
 Naive Bayes:	Fast but independent assumption limits accuracy, high precision but very low recall leads to biased predictions
 
